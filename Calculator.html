@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Científica CASIO</title>
+  <link rel="stylesheet" type="text/css" href="callculadoracientifica.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" disabled>
+    <div class="keypad">
+      <button onclick="clearResult()">AC</button>
+      <button onclick="deleteLast()">DEL</button>
+      <button onclick="appendCharacter('(')">(</button>
+      <button onclick="appendCharacter(')')">)</button>
+      <button onclick="appendMathFunction('sqrt')">√</button>
+      <button onclick="appendMathFunction('cbrt')">∛</button>
+      <button onclick="appendMathFunction('log')">log</button>
+      <button onclick="appendMathFunction('ln')">ln</button>
+      <button onclick="appendPower()">^</button>
+      <button onclick="appendCharacter('7')">7</button>
+      <button onclick="appendCharacter('8')">8</button>
+      <button onclick="appendCharacter('9')">9</button>
+      <button onclick="appendOperator('/')">÷</button>
+      <button onclick="appendCharacter('4')">4</button>
+      <button onclick="appendCharacter('5')">5</button>
+      <button onclick="appendCharacter('6')">6</button>
+      <button onclick="appendOperator('*')">x</button>
+      <button onclick="appendCharacter('1')">1</button>
+      <button onclick="appendCharacter('2')">2</button>
+      <button onclick="appendCharacter('3')">3</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendCharacter('0')">0</button>
+      <button onclick="appendCharacter('.')">.</button>
+      <button onclick="appendOperator('+')">+</button>
+      <button onclick="appendMathFunction('sin')">sin</button>
+      <button onclick="appendMathFunction('cos')">cos</button>
+      <button onclick="appendMathFunction('tan')">tan</button>
+      <button onclick="appendMathFunction('asin')">asin</button>
+      <button onclick="appendMathFunction('acos')">acos</button>
+      <button onclick="appendMathFunction('atan')">atan</button>
+      <button onclick="appendMathFunction('abs')">abs</button>
+      <button onclick="appendMathFunction('exp')">exp</button>
+      <button onclick="appendMathFunction('floor')">floor</button>
+      <button onclick="appendMathFunction('ceil')">ceil</button>
+      <button onclick="appendMathFunction('round')">round</button>
+      <button onclick="appendMathConstant('pi')">π</button>
+      <button onclick="appendMathConstant('e')">e</button>
+      <button onclick="calculate()">=</button>
+    </div>
+  </div>
+  
+
+  <script src="calculadoracientifica.js"></script>
+</body>
+</html>
